@@ -10,7 +10,10 @@ module.exports = {
     BigInt: "readonly",
     globalThis: "readonly",
   },
+  parserOptions: {
+    sourceType: "module",
+  },
   rules: {
-    'import/no-webpack-loader-syntax': 'off',
+    "import/no-webpack-loader-syntax": "off",
   },
 };
